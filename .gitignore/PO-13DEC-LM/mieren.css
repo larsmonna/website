@@ -1,0 +1,126 @@
+aside {
+  display: block;
+}
+
+body {
+	background-color: rgb(207,230,213);
+}
+
+h1 { 
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}	
+h4 { 
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}	
+section { 
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}	
+
+
+
+
+ div.sidebar{
+	 height: 800px;
+ }
+ 
+ .sidebar {
+  margin: 0;
+  padding: 0;
+  width: 175px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+  
+}
+
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 800px;
+}
+.content {
+  margin: 0;
+  padding: 0;
+  width: 1420px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  text-align: left;
+}
+
+
+.sidebar2 {
+  margin-right: 40px;
+  padding: 0;
+  width: 175px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  right: 0;
+}
+
+
+
+.sidebar2 a {
+  display: block;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.sidebar2 a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar2 a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+
+ 
+ 
+ 
+ 
+ 
